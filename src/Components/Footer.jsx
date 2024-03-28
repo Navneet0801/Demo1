@@ -37,7 +37,7 @@ const Footer = () => {
                         </a>
                     </ul>
                 </div>
-                <div className='md:w-1/2 flex px-20 md:p-10'>
+                <div className='w-1/2'>
                     <ul className="flex flex-col items-start gap-[13px]"> 
                         <h2 className='text-2xl py-5'>Company</h2>
                         <a href="#">
