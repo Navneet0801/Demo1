@@ -15,7 +15,7 @@ const About = () => {
             <p className='text-5xl font-bold mt-4'>₹20K</p>
         </div>
         <div className='flex flex-col items-center'>
-            <img src="images/img_frame_10.svg" alt="image" className="h-[100px] pt-2" />
+            <img src="images/customer.svg" alt="image" className="h-[100px] pt-2" />
             <h2 className='font-bold pt-3'>Customer Satisfaction</h2>
             <p className='text-5xl font-bold mt-4'>20%</p>
         </div>

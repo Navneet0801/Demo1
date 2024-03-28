@@ -4,9 +4,9 @@ import React from 'react'
 const Works = () => {
   return (
     <div className='relative m-10'>
-        <div className='absolute left-[40vw] font-bold text-6xl whitespace-nowrap'>How it works</div>
+        <div className='absolute left-[40vw] md:text-6xl font-bold text-3xl whitespace-nowrap'>How it works</div>
         <div>
-            <div className='flex flex-row px-80 my-10 pt-28 m-10 justify-between'>
+            <div className='flex flex-row  px-80 my-10 pt-28 m-10 justify-between'>
                 <div className='flex flex-col items-center'>
                     <img src="images/download_app.png" alt="staff_one" className="w-[118px] object-cover" />
                     <h2 className='font-bold'>Download App</h2>

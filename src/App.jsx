@@ -8,13 +8,15 @@ import FAQ from './Components/FAQ'
 import Icons from './Components/Icons'
 import Help from './Components/Help'
 import Footer from './Components/Footer'
+import { useMediaQuery } from 'react-responsive'
 
 const App = () => {
+  const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 1100px)' });
   return (
     <div>
       <Navbar />
       <LandingPage />
-      <About />
+      {isDesktopOrLaptop && <About />}
       <Works />
       <FAQ />
       <Icons />
