@@ -3,7 +3,7 @@ import React from 'react'
 
 const Works = () => {
   return (
-    <div className='m-10'>
+    <div className='m-5'>
         <div className='flex justify-center md:text-6xl font-bold text-3xl whitespace-nowrap'>How it works</div>
         <div>
             <div className='flex flex-col md:flex-row  md:px-80 my-10 md:pt-28 m-10 justify-between'>

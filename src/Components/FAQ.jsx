@@ -4,7 +4,7 @@ import Accordion from "./Accordion";
 
 const FAQ = () => {
   return (
-    <div className="m-5 md:m-40 mb-12">
+    <div className="m-5 md:mx-40 md:my-20 mb-12">
         <div className="flex justify-center">
             <h1 className="md:pt-5 text-2xl md:text-5xl">Frequently Asked Questions</h1>
         </div>
