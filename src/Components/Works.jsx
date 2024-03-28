@@ -3,10 +3,10 @@ import React from 'react'
 
 const Works = () => {
   return (
-    <div className='relative m-10'>
-        <div className='absolute left-[40vw] md:text-6xl font-bold text-3xl whitespace-nowrap'>How it works</div>
+    <div className='m-10'>
+        <div className='flex justify-center md:text-6xl font-bold text-3xl whitespace-nowrap'>How it works</div>
         <div>
-            <div className='flex flex-row  px-80 my-10 pt-28 m-10 justify-between'>
+            <div className='flex flex-col md:flex-row  md:px-80 my-10 md:pt-28 m-10 justify-between'>
                 <div className='flex flex-col items-center'>
                     <img src="images/download_app.png" alt="staff_one" className="w-[118px] object-cover" />
                     <h2 className='font-bold'>Download App</h2>
@@ -24,9 +24,8 @@ const Works = () => {
                 </div>
             </div>
         </div>
+        <div className='flex justify-center'>
         <button className=' 
-                absolute
-                left-[45vw]
                 py-2
                 px-7
                 font-semibold 
@@ -34,6 +33,7 @@ const Works = () => {
                 rounded-full
                 border-2'
                 >Get Started</button>
+        </div>
     </div>
   )
 }
