@@ -8,7 +8,7 @@ const FAQ = () => {
         <div className="flex justify-center">
             <h1 className="md:pt-5 text-2xl md:text-5xl">Frequently Asked Questions</h1>
         </div>
-        <div className="mt-10 rounded-lg">
+        <div className="md:mt-10 mt-5 rounded-lg">
             <Accordion
                 title="How does this website work?"
                 answer="answer1"
