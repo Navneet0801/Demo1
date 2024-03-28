@@ -6,7 +6,7 @@ const FAQ = () => {
   return (
     <div className="m-5 md:m-40 mb-12">
         <div className="flex justify-center">
-            <h1 className="md:pt-5 pt-20 text-5xl">Frequently Asked Questions</h1>
+            <h1 className="md:pt-5 text-2xl md:text-5xl">Frequently Asked Questions</h1>
         </div>
         <div className="mt-10 rounded-lg">
             <Accordion

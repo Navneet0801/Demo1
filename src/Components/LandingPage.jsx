@@ -5,9 +5,9 @@ const LandingPage = () => {
   return (
     <div className='flex flex-col md:flex-row md:gap-10 w-full'>
         <div className='w-full md:w-1/2 px-6 md:px-36 py-10 md:py-52'>
-            <h1 className='text-3xl md:text-5xl md:px-0 px-[26vh] py-3 font-semibold'>Welcome to AsoWin,</h1>
-            <p className='text-3xl md:text-6xl md:px-0 px-[18vh] py-3 font-bold'>Get Paid for Installing Apps</p>
-            <p className='py-4 px-10 md:px-0'>Whether you are a student, a parent, or anyone in between, our platform offers a simple way to boost your income.</p>
+            <h1 className='text-3xl md:text-5xl md:px-0 px-[9vh] py-3 font-semibold'>Welcome to AsoWin,</h1>
+            <p className='text-3xl md:text-6xl md:px-0 px-[1vh] py-3 font-bold'>Get Paid for Installing Apps</p>
+            <p className='py-4 px-5 md:px-0'>Whether you are a student, a parent, or anyone in between, our platform offers a simple way to boost your income.</p>
             <div className='flex justify-center'>
             <button className=' 
                 py-2

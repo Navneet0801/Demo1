@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='md:flex md:m-10 gap-40 justify-between'>
         <img className='w-full md:w-40 object-cover' src="/images/img_image_3_2.png" alt="Logo" />
-        <div className='px-40 md:px-0'>
+        <div className='px-10 md:px-0'>
             <a href='./Works' 
                 className='
                 mx-5 
