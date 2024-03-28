@@ -6,7 +6,7 @@ const Works = () => {
     <div className='m-5'>
         <div className='flex justify-center md:text-6xl font-bold text-3xl whitespace-nowrap'>How it works</div>
         <div>
-            <div className='flex flex-col md:flex-row  md:px-80 my-10 md:pt-28 mx-10 justify-between'>
+            <div className='flex flex-col md:flex-row  md:px-80 mb-10 md:pt-28 mx-10 justify-between'>
                 <div className='flex flex-col pt-5 md:pt-0  items-center justify-center'>
                     <img src="images/download_app.png" alt="staff_one" className="w-[118px] object-cover" />
                     <h2 className='font-bold'>Download App</h2>
