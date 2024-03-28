@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="bg-[#000000] p-5 border-t-2 border-white text-white">
+        <div className="bg-[#000000] p-10 border-t-2 border-white text-white">
             <div className='flex justify-around gap-20'>
                 <p>© All Rights Reserved</p>
                 <a href='#' className="">Privacy Policy</a>
